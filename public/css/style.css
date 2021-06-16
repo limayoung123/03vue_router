@@ -1,0 +1,14 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+li{list-style: none;}
+a:link, a:visited{color:#333; text-decoration: none;}
+.claerfix::before, .clearfix::after{display: block; content: ""; clear:both;}
+
+h1{text-align: center;}
+.gnb{width: 100%;padding: 10px;}
+.gnb li{float: left;width: 33.333%; height: 40px; line-height: 40px;}
+.gnb li a{display: block;width: 100%;text-align: center;}
+.gnb li:hover{background:pink;}
+
+.router-link-active {background: orange;}
+
+p{width:100%; background: #ddd;padding: 20px;}
